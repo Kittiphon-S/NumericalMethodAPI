@@ -1,7 +1,7 @@
 var Math = require("../js/math.js");
 var appRouter = function (app) {
   app.get('/', function (req, res) {
-    res.send('<h1>FumerAPI is now.</h1>')
+    res.send('<h1>NumericalAPI is now.</h1>')
   });
 
   // Bisection-Method
