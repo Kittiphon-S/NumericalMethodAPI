@@ -81,5 +81,5 @@ docker build -t numericalMethod-api .
 ```
 
 ```sh
-docker run -dit --name FumerAPI -p 3001:3000 -v "${pwd}:/app" numericalMethod-api
+docker run -dit -p 3001:3000 -v "${pwd}:/app" numericalMethod-api
 ```
