@@ -77,9 +77,9 @@ POST http://localhost:3000/api/Central/
 ### Docker
 
 ```sh
-docker build -t numericalMethod-api .
+docker build -t numericalmethod-api .
 ```
 
 ```sh
-docker run -dit -p 3001:3000 -v "${pwd}:/app" numericalMethod-api
+docker run -dit -p 3001:3000 -v "${pwd}:/app" numericalmethod-api
 ```
